@@ -6,6 +6,6 @@ The projects in this repository show working examples using the dotnet CLI and A
 ## How to run
 
 1. Get the dotnet CLI http://dotnet.github.io/getting-started/
-2. run `dotnet restore` in the root folder
+2. run `dotnet restore` in the root folder (if on OSX EL Capitan then use `dotnet restore osx.10.10-x64`)
 3. Navigate to either `HelloMvc` or `HelloWeb` and run `dotnet run`
 4. Navigate to `http://localhost:5000` in the browser
