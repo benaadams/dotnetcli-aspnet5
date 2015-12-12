@@ -3,13 +3,13 @@ using System.IO;
 
 namespace Microsoft.AspNet.Hosting
 {
-	public static class WebHost
+    public static class WebHost
     {
         public static void ExecuteInChildAppDomain<TStartup>(string[] args)
         {
             ExecuteInChildAppDomain<TStartup>(Environment.CurrentDirectory, args);
         }
-        
+
         public static void ExecuteInChildAppDomain<TStartup>(string applicationBasePath, string[] args)
         {
             if (AppDomain.CurrentDomain.IsDefaultAppDomain())
