@@ -1,7 +1,10 @@
+using System;
+using System.IO;
 using Microsoft.AspNet.Builder;
+using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Http;
 
-namespace HelloWeb
+namespace HelloWebFullAppDomainPrototype
 {
     public class Startup
     {
